@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   >
+   
+
+    
+<ListView
+    android:id="@+id/alertlist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:choiceMode="singleChoice"
+    />
+<TextView
+    android:id="@+id/android:empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="@string/NoMessages"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/layout/alert.xml -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/titleDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+    <TextView
+        android:id="@+id/dateDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/locationDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    
+       <TextView
+        android:id="@+id/alertDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+       
+              <TextView
+        android:id="@+id/alertStateDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    <Button
+        android:id="@+id/btnSetAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SetAlert" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SABE" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/btnRemoveAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/RemoveAlert" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Back" />
+
+    <TextView
+        android:id="@+id/timeEndDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    
+
+</LinearLayout>

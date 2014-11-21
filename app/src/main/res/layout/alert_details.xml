@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+ android:background="@color/White" >
+
+
+
+<RelativeLayout 
+    android:id="@+id/relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="10dp"
+    
+    android:background="@color/White" >
+
+
+    <TextView
+        android:id="@+id/titleDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"      
+        android:padding="5dp"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alertText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titleDisplay"
+        android:layout_below="@+id/titleDisplay"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/LightGreen"
+           android:textColor="@color/White"
+        android:gravity="center"
+        
+        android:text="@string/alertSetTo"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/alertDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alertText"
+        android:layout_below="@+id/alertText"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/LightGreen"
+        android:textColor="@color/White"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    
+    <TextView
+        android:id="@+id/txtEventDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alertDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/Black"
+        android:padding="5dp"
+        android:text="@string/EventDetails"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEventDetails"
+        android:background="@color/White"
+        android:layout_marginLeft="10dp"
+        android:padding="2dp"
+        android:textColor="@color/Black"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+    
+    
+    <TextView
+        android:id="@+id/locationDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateDisplay"
+        android:background="@color/White"
+        android:padding="2dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/Black"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtAlertOptions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/Black"
+         android:padding="5dp"
+        android:text="@string/alertSettings"
+          android:layout_marginBottom="5dp"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtAlertOptions"
+        />
+
+
+    <Button
+        android:id="@+id/btnSetAlert"
+        android:layout_width="125dp"       
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner"
+        android:text="@string/SetAlert" />
+
+    <Button
+        android:id="@+id/btnRemoveAlert"
+        android:layout_marginRight="10dp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner"
+        android:text="@string/RemoveAlert" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSetAlert"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/Back" />
+  
+            <ImageView
+        android:id="@+id/imgad"
+         android:layout_below="@+id/btnBack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription ="@string/ad"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/adspace300x50"
+        android:background="#000000" />
+
+</RelativeLayout>
+</ScrollView>

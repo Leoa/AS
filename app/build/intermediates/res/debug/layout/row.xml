@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/bell" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+             android:textColor="@color/Black"
+             android:textStyle="bold"
+            android:gravity="center_vertical" />
+        
+        
+                <TextView
+            android:id="@+id/middletext"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+             android:textColor="@color/Black"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/bottomtext"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+             android:textColor="@color/Black"
+            android:singleLine="true" />
+        
+        
+       
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/layout/row.xml -->

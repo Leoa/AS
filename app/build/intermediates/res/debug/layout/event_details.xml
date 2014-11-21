@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/titleDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/Black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/titleDisplay"
+            android:layout_below="@+id/titleDisplay"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/LightBlue"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/locationDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dateDisplay"
+            android:layout_below="@+id/dateDisplay"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/LightBlue"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEventDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/locationDisplay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/Black"
+            android:padding="5dp"
+            android:text="@string/Description"
+            android:textColor="@color/White"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEventDetails"
+            android:layout_marginLeft="10dp"
+            android:background="@color/White"
+            android:padding="2dp"
+            android:textColor="@color/Black"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+              android:layout_below="@+id/descriptionDisplay"
+          android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/SetReminder" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+         
+              android:layout_below="@+id/btnSave"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/Back" />
+        
+            <ImageView
+        android:id="@+id/imgad"
+         android:layout_below="@+id/btnBack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription ="@string/ad"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/adspace300x50"
+        android:background="#000000" />
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/layout/event_details.xml -->

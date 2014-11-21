@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_event_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dip"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_event_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_event_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/tv_event_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_event_start"
+        android:layout_marginLeft="10dp"
+       
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_event_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+         >
+    </TextView>
+    
+    
+    <TextView
+        android:id="@+id/tv_event_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_event_date"
+       android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_event_name_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dip"
+        android:maxLines="1"
+        android:textColor="@color/yellow"
+        android:textSize="14dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_event_date_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_event_name_Delete"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="3dip"
+        android:maxLines="1"
+        android:textColor="@color/yellow"
+        android:textSize="14dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_event_start_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_event_date_Delete"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="3dip"
+        android:maxLines="1"
+        android:textColor="@color/yellow"
+        android:textSize="14dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_event_end_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dip"
+        android:maxLines="1"
+        android:textColor="@color/yellow"
+        android:textSize="14dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_event_location_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_event_end_Delete"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="3dip"
+        android:maxLines="1"
+        android:textColor="@color/yellow"
+        android:textSize="14dp" >
+    </TextView>
+
+    <!--
+      <TextView
+        android:id="@+id/tv_event_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_event_end"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="3dip"
+        android:maxLines="1"
+        android:text="Location : "
+        android:textColor="@android:color/black"
+        android:textSize="14dp" >
+    </TextView>
+    -->
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    android:id="@+id/tabSelector"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="false"
+        android:state_selected="false"
+        android:state_pressed="true"
+        android:background="#32CD32"/>  
+    <item
+        android:state_focused="false"
+        android:state_selected="true"
+        android:state_pressed="false"
+     android:background="#FF00CC"/>
+    <item
+        android:state_focused="true"
+        android:state_selected="false"
+        android:state_pressed="false"
+     android:background="#00CCFF"/>
+    <item
+        android:state_focused="true"
+        android:state_selected="true"
+        android:state_pressed="false"
+     android:background="#FFCC00"/>
+</selector>
+<!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/drawable-hdpi/tab_selectors.xml -->

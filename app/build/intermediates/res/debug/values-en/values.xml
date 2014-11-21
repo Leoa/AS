@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/values-en/strings.xml -->
+    <eat-comment/>
+    <string-array name="Times_array">
+        <item>0 minutes </item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>40 minutes</item>
+        <item>50 minutes</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>List of Events</item>
+         <item>Event Details</item>
+        <item>Set Alert</item>    
+      
+        <item>Notifications</item>
+        <item>Schedule Chart</item>
+    </string-array>
+    <color name="Black">#000000</color>
+    <color name="DarkGreen">#7F7F7F</color>
+    <color name="DarkPastelBlue">#006677</color>
+    <color name="DarkestBlue">#00232f</color>
+    <color name="Grey">#CCCCCC</color>
+    <color name="LightBlue">#00CCFF</color>
+    <color name="LightGreen">#00CC33</color>
+    <color name="Pink">#FF00FF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="blue">#ff2570ba</color>
+    <color name="grey">#f7f7f7</color>
+    <color name="red">#ff0000</color>
+    <color name="titlebackgroundcolor">#00CC33</color>
+    <color name="titlecolor">#006677</color>
+    <color name="yellow">#FF00FF</color>
+    <declare-styleable name="FragmentArguments">
+        <attr name="android:label"/>
+    </declare-styleable>
+    <string name="AlertOptions">Alert Options</string>
+    <string name="Back">Back to List</string>
+    <string name="Description">Description:</string>
+    <string name="Dismiss">Dismiss</string>
+    <string name="EventDetails">Event Details: </string>
+    <string name="NoMessages">No Messages</string>
+    <string name="NotificationOptions">Notification Options</string>
+    <string name="RefreshList">Refresh List</string>
+    <string name="RegisterNotifications">Register For Notifications</string>
+    <string name="RemoveAlert">Remove Alert</string>
+    <string name="SABE">Set Alert Before Event</string>
+    <string name="SetAlert">Set Alert</string>
+    <string name="SetReminder">Set Alert</string>
+    <string name="SetSound">Set Sound: </string>
+    <string name="SetVibrate">Set Vibrate: </string>
+    <string name="Sound">Sound </string>
+    <string name="Title">Title</string>
+    <string name="UnregisterNotifications">Unregister From Notifications</string>
+    <string name="Vibrate"> Vibrate </string>
+    <string name="about">About</string>
+    <string name="ad">Ad Space</string>
+    <string name="alertSetTo">Alert Set To: </string>
+    <string name="alertSettings">Alert Settings: </string>
+    <string name="already_registered">Device is already registered.</string>
+    <string name="appNotice">This application automatically registers this service on your phone. Use the Options Menu to register or unregister your phone. You will need a Gmail account on your phone to use this service.</string>
+    <string name="app_name">Anime Convention Scheduler</string>
+    <string name="back_title">back</string>
+    <string name="cloud">Anime Convention Application uses Google Cloud Messaging to send notifications and updates to convention members. Google Cloud Messaging is a free service.</string>
+    <string name="copyright">\u00A9  2012-2013 Copyright \nSugar Defynery 2012-2013</string>
+    <string name="country_prompt">Choose a Tutorial	</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="eventDetails">Event Details: </string>
+    <string name="exit_title">exit</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="layout">Inner Harbor Convention Center</string>
+    <string name="one_shot_scheduled">One-shot alarm will go off in 30 seconds based on the real time clock. Try changing the current time before then!</string>
+    <string name="options_alarmSettings">Alert Options</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="options_register">Register Options</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="refresh">Refresh</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="settings_title">title</string>
+    <string name="time_prompt">Reminder Time: </string>
+    <string name="tutorial">Tutorial</string>
+    <style name="Theme.Tab1" parent="android:Theme">
+        <item name="android:tabWidgetStyle">@style/Theme.Tab2</item>
+    </style>
+    <style name="Theme.Tab2" parent="android:Theme"> </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+   		 <item name="android:windowIsTranslucent">true</item>
+   	     <item name="android:windowBackground">@android:color/transparent</item>
+  	  	 <item name="android:windowContentOverlay">@null</item>
+    	 <item name="android:windowNoTitle">true</item>
+    	 <item name="android:windowIsFloating">true</item>
+   	     <item name="android:backgroundDimEnabled">false</item>
+  </style>
+</resources>

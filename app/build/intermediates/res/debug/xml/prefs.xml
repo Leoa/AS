@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <CheckBoxPreference 
+            android:id="@+id/register"
+            android:key="perform_register"
+            android:summary="Enable notifications from Convention"
+            android:title="Register" 
+            android:defaultValue="false"
+        />
+         
+        <CheckBoxPreference 
+            android:id="@+id/noregister"
+            android:key="perform_noRegisteration"
+            android:summary="No notifications from Convention"
+            android:title="Do not Register" 
+            android:defaultValue="false"
+        />
+         
+        <CheckBoxPreference 
+            android:id="@+id/sound"
+            android:key="perform_sound"
+            android:summary="Enable Sound For Alerts"
+            android:title="Enable Sound" 
+            android:defaultValue="true"
+        />
+        <CheckBoxPreference 
+            android:id="@+id/vibrate"
+            android:key="perform_vibrate"
+            android:summary="Enable vibration with  Alerts"
+            android:title="Enable Vibrate" 
+            android:defaultValue="true"
+        />
+
+    </PreferenceScreen><!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/xml/prefs.xml -->

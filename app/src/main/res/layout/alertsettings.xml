@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@color/White"
+    android:orientation="vertical" >
+    
+    
+        <TextView 
+      android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/Black"
+         android:text="@string/AlertOptions" >
+         
+        </TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+  		android:layout_margin="5dp"
+         android:textColor="@color/Black"     
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/SetSound" />
+
+    <Button
+        android:id="@+id/btnSound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/Sound" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+          android:color="@color/Black"
+           android:textColor="@color/Black"     
+        android:text="@string/SetVibrate" />
+
+    <Button
+        android:id="@+id/btnVibrate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textColor="@color/Black"     
+        android:layout_margin="10dp"
+        android:text="@string/Vibrate" />
+    
+        <Button
+        android:id="@+id/btnBack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textColor="@color/Black"     
+        android:layout_margin="10dp"
+        android:text="@string/Back" />
+
+</LinearLayout>

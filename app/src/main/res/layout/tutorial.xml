@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/txttutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"  android:textColor="#000000"
+        android:text="@string/tutorial" />
+
+      <Spinner
+        android:id="@+id/spinnere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttutorial"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt" 
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="@string/Back"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtdataview"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnere"
+        android:layout_below="@+id/spinnere"
+        android:layout_marginTop="60dp"
+        android:textColor="#000000"
+        android:padding="10dp"
+         />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignRight="@+id/spinnere"
+        android:layout_alignTop="@+id/txtdataview"
+        android:padding="5dp"
+        android:src="@drawable/list" />
+
+</RelativeLayout>

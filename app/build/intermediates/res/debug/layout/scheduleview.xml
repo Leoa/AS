@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+    
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/timeEndDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView
+        android:id="@+id/dateDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+        <TextView
+        android:id="@+id/locationDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+
+    
+    
+    <TextView
+        android:id="@+id/descriptionDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+  
+    
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SetReminder" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Back" />
+
+</LinearLayout><!-- From: file:/C:/Users/Leondria/AndroidStudioProjects/com.sugardefynery.animeconvention.scheduler2/app/src/main/res/layout/scheduleview.xml -->
