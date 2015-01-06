@@ -9,17 +9,19 @@ http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Introduction
 /Users/sscsis/Desktop/AS-master/app/src/main/res
 
 
+
 sourceSets {
     main {
         manifest.srcFile 'AndroidManifest.xml'
-        java.srcDirs = ['src']
+        java.srcDirs = ['src/java']
         resources.srcDirs = ['src/main/res']
         aidl.srcDirs = ['src']
         renderscript.srcDirs = ['src']
-        res.srcDirs = ['res']
+        res.srcDirs = ['src/main/res']
         assets.srcDirs = ['assets']
     }
 }
+
 
 
 http://www.gradle.org/docs/current/userguide/java_plugin.html
