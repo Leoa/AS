@@ -25,3 +25,5 @@ sourceSets {
 
 
 http://www.gradle.org/docs/current/userguide/java_plugin.html
+
+Tree path contains equal elements at different levels: element=app class=class com.android.tools.idea.navigator.nodes.NonAndroidModuleNode path=[java] tree structure=com.android.tools.idea.navigator.AndroidProjectViewPane$1@52f0245ejava.lang.Throwable
